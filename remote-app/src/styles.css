@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.clsBorder{
+    margin: 1rem;
+    border: 1px dashed blue;
+    padding-bottom: 1rem;
+}
+
+.clsPadding{
+    padding: 1rem;
+}

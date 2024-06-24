@@ -1,0 +1,9 @@
+.clsBorder{
+    margin: 1rem;
+    border: 1px dashed black;
+    padding-bottom: 1rem;
+}
+
+.clsPadding{
+    padding: 1rem;
+}

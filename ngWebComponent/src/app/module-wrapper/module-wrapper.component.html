@@ -1,0 +1,21 @@
+<div class="clsBorder">
+    <div class="clsPadding">
+        <p>Message from Module Wrapper</p>
+
+        <div>
+            <button class="btn btn-primary" (click)="load('detailsComponent')">Load DetailsComponent from
+                Module!</button>
+
+            <button class="btn btn-light" (click)="load('taskComponent')">Load DetailsComponent from Module!</button>
+
+        </div>
+
+        <div #dynamicComponentContainer></div>
+
+        <div *ngIf="loaded">
+            <ng-container *ngComponentOutlet="myComponent!"></ng-container>
+        </div>
+    </div>
+
+
+</div>
